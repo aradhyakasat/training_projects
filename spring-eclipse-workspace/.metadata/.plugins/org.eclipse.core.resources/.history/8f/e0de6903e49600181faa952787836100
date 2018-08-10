@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="https://code.jquery.com/jquery-2.2.4.js"
+	integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+	crossorigin="anonymous"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		//document on ready function
+		$(function() {
+			$.getJSON("http://localhost:8080/api/products", function(products) {
+				products.forEach(product => {
+					console.log(product.id, product.name, product.price);
+				});
+			});
+		});
+	</script>
+</body>
+</html>

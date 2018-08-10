@@ -1,0 +1,11 @@
+package com.visa.prj.dao;
+
+public class CustomerDaoJpaImpl implements CustomerDao {
+
+	@Override
+	public boolean customerCheck(String email) {
+		
+		return false;
+	}
+
+}

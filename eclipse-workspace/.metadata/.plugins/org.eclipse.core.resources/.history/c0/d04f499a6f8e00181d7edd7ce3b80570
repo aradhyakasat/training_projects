@@ -1,0 +1,16 @@
+package com.visa.prj.client;
+
+import com.visa.dao.EmployeeDao;
+import com.visa.dao.EmployeeDaoJpaImpl;
+import com.visa.prj.entity.Employee;
+
+public class EmployeeClient {
+
+	public static void main(String[] args) {
+		 int choice;
+		EmployeeDao dao=new EmployeeDaoJpaImpl();
+		Employee e=new Employee()
+
+	}
+
+}

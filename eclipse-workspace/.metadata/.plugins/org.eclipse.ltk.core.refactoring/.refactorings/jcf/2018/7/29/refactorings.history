@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.visa.prj.client.mapTask.java&apos; to &apos;MapTask.java&apos;&#x0D;&#x0A;- Original project: &apos;jcf&apos;&#x0D;&#x0A;- Original element: &apos;com.visa.prj.client.mapTask.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.visa.prj.client.MapTask.java&apos;" description="Rename compilation unit &apos;mapTask.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.visa.prj.client{mapTask.java" name="MapTask.java" references="false" stamp="1531827164038" version="1.0"/>
+</session>

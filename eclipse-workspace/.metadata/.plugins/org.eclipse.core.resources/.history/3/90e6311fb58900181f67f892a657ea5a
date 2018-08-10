@@ -1,0 +1,14 @@
+package com.visa.prj.client;
+
+public class mapTask {
+
+	public static void main(String[] args) {
+		String report=new String("Ramesh sold 500 products of iPhone each costing 98000");
+		System.out.println(report);
+		
+		Map<String,Integer>=new Map
+
+		
+	}
+
+}

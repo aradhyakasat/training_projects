@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.visa.prj.client.KeyboardUtil"/>
+<fullyQualifiedTypeName name="com.visa.prj.entity.Employee"/>
+<fullyQualifiedTypeName name="com.visa.dao.EmployeeDaoJpaImpl"/>
+<fullyQualifiedTypeName name="javax.persistence.JoinTable"/>
+<fullyQualifiedTypeName name="javax.persistence.JoinColumns"/>
+<fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.visa.prj.entity.Movie"/>
+<fullyQualifiedTypeName name="com.visa.prj.entity.Actor"/>
+<fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="com.visa.prj.entity.Product"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.DiscriminatorColumn"/>
+<fullyQualifiedTypeName name="javax.persistence.DiscriminatorValue"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="com.visa.util.JPAUtil"/>
+<fullyQualifiedTypeName name="javax.persistence.Inheritance"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.Query"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

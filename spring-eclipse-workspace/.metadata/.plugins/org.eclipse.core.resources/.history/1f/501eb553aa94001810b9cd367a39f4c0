@@ -1,0 +1,30 @@
+package com.visa.prj.dao;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import com.visa.prj.entity.User;
+
+public class UserDaoJpaImpl implements UserDao {
+
+	@PersistenceContext
+	private EntityManager em;
+	
+	@Override
+	public void addUser(User user) {
+
+	}
+
+	@Override
+	public List<User> getUsers() {
+		return null;
+	}
+
+	@Override
+	public User getUserById(int id) {
+		return null;
+	}
+
+}

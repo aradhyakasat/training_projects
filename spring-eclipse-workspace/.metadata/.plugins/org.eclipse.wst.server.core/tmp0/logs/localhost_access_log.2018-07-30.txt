@@ -1,0 +1,11 @@
+127.0.0.1 - - [30/Jul/2018:11:27:15 +0100] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [30/Jul/2018:11:27:17 +0100] "GET /spring_basic/print.jsp HTTP/1.1" 200 312
+0:0:0:0:0:0:0:1 - - [30/Jul/2018:11:27:23 +0100] "GET /spring_basic/ HTTP/1.1" 200 310
+0:0:0:0:0:0:0:1 - - [30/Jul/2018:11:27:25 +0100] "GET /spring_basic/first.do HTTP/1.1" 200 345
+127.0.0.1 - - [30/Jul/2018:12:39:27 +0100] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [30/Jul/2018:12:39:28 +0100] "GET /spring_basic/WEB-INF/classes/com/visa/prj/web/BookController.java HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [30/Jul/2018:12:39:39 +0100] "GET /spring_basic/ HTTP/1.1" 200 348
+0:0:0:0:0:0:0:1 - - [30/Jul/2018:12:39:43 +0100] "GET /spring_basic/bookform.do HTTP/1.1" 200 688
+0:0:0:0:0:0:0:1 - - [30/Jul/2018:12:40:04 +0100] "POST /spring_basic/addBook.do HTTP/1.1" 200 348
+0:0:0:0:0:0:0:1 - - [30/Jul/2018:12:40:12 +0100] "GET /spring_basic/bookform.do HTTP/1.1" 200 688
+0:0:0:0:0:0:0:1 - - [30/Jul/2018:12:40:26 +0100] "POST /spring_basic/addBook.do HTTP/1.1" 200 348

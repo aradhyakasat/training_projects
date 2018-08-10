@@ -1,0 +1,18 @@
+package com.visa.prj.client;
+
+import com.visa.dao.EmployeeDao;
+import com.visa.dao.EmployeeDaoJpaImpl;
+import com.visa.prj.entity.Employee;
+
+public class EmployeeClient {
+
+	public static void main(String[] args) {
+		int choice,id;
+		String name;
+		System.out.println("Select \n 1 to add employee \n 2 to raise ");
+		//EmployeeDao dao=new EmployeeDaoJpaImpl();
+		//Employee e=new Employee()
+
+	}
+
+}

@@ -1,0 +1,6 @@
+
+
+Customer:
+{{customer.email}} <br/>
+{{Customer.firstName}} <br/>
+<hr/>

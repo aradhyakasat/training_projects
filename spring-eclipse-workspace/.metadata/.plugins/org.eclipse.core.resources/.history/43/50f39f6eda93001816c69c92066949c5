@@ -1,0 +1,8 @@
+package com.visa.prj.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class EmployeeService {
+
+}

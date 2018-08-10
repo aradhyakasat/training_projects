@@ -1,0 +1,65 @@
+package com.visa.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.visa.dao.ReservationDao;
+import com.visa.dao.RestaurantTableDao;
+import com.visa.dao.RestaurantTimingDao;
+import com.visa.dao.UserDao;
+import com.visa.dao.VoucherDao;
+import com.visa.entity.Reservation;
+import com.visa.entity.User;
+
+@Service
+public class AdminService {
+	
+	@Autowired
+	private UserDao userDao;
+	
+	@Autowired
+	private RestaurantTableDao restaurantTableDao;
+	
+	@Autowired
+	private RestaurantTimingDao restaurantTimingDao;
+	
+	@Autowired
+	private VoucherDao voucherDao;
+	
+	@Autowired
+	private ReservationDao reservationDao;
+	
+	public List<User> getUsers(){
+		return userDao.findAll();	
+	}
+	
+	public void addUser(User u) {
+		userDao.save(u);
+	}
+	
+	public void updateUser(String email,User u) {
+		User user=userDao.getOne(email);
+		user.setEmail(u.getEmail());
+		user.setFirstName(u.getFirstName());
+		user.setLastName(u.getLastName());
+		user.setPassword(u.getPassword());
+		user.setPhone(u.getPhone());
+		user.setRegistrationDate(u.getRegistrationDate());
+		user.setStatus(u.getStatus());
+	}
+	
+	public List<Reservation> getAllReservations(){
+		return reservationDao.findAll();
+	}
+	
+	public void addReservation(Reservation r) {
+		reservationDao.save(r);
+	}
+	
+	public void UpdateReservation(int id, Reservation r) {
+		Reservation rr=reservationDao.getOne(id);
+	}
+
+}

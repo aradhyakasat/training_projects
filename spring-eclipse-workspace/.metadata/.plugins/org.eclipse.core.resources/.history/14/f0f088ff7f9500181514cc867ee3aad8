@@ -1,0 +1,49 @@
+package com.visa.prj.service;
+
+import java.util.List;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.visa.prj.dao.ProductDao;
+import com.visa.prj.entity.Product;
+
+@Service
+public class ShopService {
+
+		@Autowired
+		private ProductDao productDao;
+		
+		public Product getById(int id) {
+			return productDao.findById(arg0)(id);
+		}
+		
+		public List<Product> getProducts(){
+			return productDao.findAll();
+			
+		}
+		//Reading data doesnt need transactional
+		public List<Product> getAvailableProducts(){
+			return productDao.getAvailableProducts();
+		}
+		
+		@Transactional
+		public void addProduct(Product p) {
+			productDao.save(p);
+		}
+		
+		@Transactional
+		public void deleteProduct(int id) {
+			Product p=productDao.getOne(id);
+			productDao.delete(p);
+		}
+		
+		public void updateProduct(int id,Product prd) {
+			Product p=productDao.getOne(id);
+			p.setName(prd.getName());
+			p.setPrice(prd.getPrice());
+			p.setQuantity(prd.getQuantity());
+		}
+}

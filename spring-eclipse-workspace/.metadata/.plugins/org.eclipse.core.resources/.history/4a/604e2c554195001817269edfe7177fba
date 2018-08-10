@@ -1,0 +1,14 @@
+package com.visa.prj.web;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.visa.prj.service.EventService;
+
+@Controller
+public class EventController {
+	
+	@Autowired
+	private EventService eventService
+
+}

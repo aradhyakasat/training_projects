@@ -1,0 +1,21 @@
+package com.visa.prj.web;
+
+import org.springframework.validation.Errors;
+import org.springframework.validation.Validator;
+
+import com.visa.prj.entity.Book;
+
+public class BookValidator implements Validator {
+
+	@Override
+	public boolean supports(Class<?> clazz) {
+		return clazz.isAssignableFrom(Book.class); //appicable to book and its subclasses
+	}
+
+	@Override
+	public void validate(Object obj, Errors errors) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

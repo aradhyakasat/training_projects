@@ -1,0 +1,4 @@
+book.id.required=Please book id hindi :-(
+book.title.required=Please enter title hindi :-(
+book.price.required=Please enter price greater than ZERO
+typeMismatch.int=ID should be number hindi

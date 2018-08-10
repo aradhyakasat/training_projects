@@ -1,0 +1,9 @@
+package com.visa.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.visa.entity.Reservation;
+
+public interface ReservationDao extends JpaRepository<Reservation, Integers> {
+
+}
